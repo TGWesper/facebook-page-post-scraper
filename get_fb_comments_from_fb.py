@@ -143,6 +143,7 @@ def scrapeFacebookPageFeedComments(page_id, access_token):
 
             for status in reader:
                 has_next_page = True
+                after = ''
 
                 while has_next_page:
 
